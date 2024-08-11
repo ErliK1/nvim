@@ -58,5 +58,13 @@ return require('packer').startup(function(use)
 	  "catppuccin/nvim",
 	  as = "catppuccin"
   }
+  
+  use {
+
+      'r-cha/encourage.nvim',
+      config = function()
+          require('encourage').setup()
+      end
+  }
 
 end)
