@@ -61,8 +61,8 @@ return require('packer').startup(function(use)
 
   use {
 
-      "christoomey/vim-tmux-navigator"
-
+      "christoomey/vim-tmux-navigator",
+      lazy = false
   }
   
   --use {
