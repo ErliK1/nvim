@@ -64,6 +64,10 @@ return require('packer').startup(function(use)
       "christoomey/vim-tmux-navigator",
       lazy = false
   }
+
+  use {
+        "mfussenegger/nvim-jdtls"
+  }
   
   --use {
 
