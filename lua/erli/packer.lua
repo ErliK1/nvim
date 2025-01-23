@@ -65,9 +65,9 @@ return require('packer').startup(function(use)
       lazy = false
   }
 
-  use {
-        "mfussenegger/nvim-jdtls"
-  }
+--  use {
+--        "mfussenegger/nvim-jdtls"
+--  }
   
   --use {
 
@@ -76,6 +76,12 @@ return require('packer').startup(function(use)
         --  require('encourage').setup()
       --end
   --}
+  use {
+    "bluz71/vim-moonfly-colors",
+    as='moonfly', 
+    lazy=false,
+    priority=1000
+  }
   use {
       "marcussimonsen/let-it-snow.nvim",
       cmd = "LetItSnow",

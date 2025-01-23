@@ -10,7 +10,7 @@ function ColorMyPencils(color, show_background)
 end
 
 local array_of_colors = { 'rose-pine', 'tokyonight', 'catppuccin', 'catppuccin-latte',
-'catppuccin-frappe','catppuccin-macchiato','catppuccin-mocha'}
+'catppuccin-frappe','catppuccin-macchiato','catppuccin-mocha', 'moonfly'}
 
 local color_to_be_used_in_system = array_of_colors[7]
 
